@@ -9,7 +9,7 @@ setup(
     author='Lorenzo Fabro',
     author_email='lorenzofabro1997@gmail.com',
     description='SSL Adapter for requests library',
-    url='https://github.com/your_username/your_package_name',
+    url='https://github.com/lorenzofabro/ssladapter',
     long_description=open('README.rst').read(),
     long_description_content_type='text/x-rst',
 )
