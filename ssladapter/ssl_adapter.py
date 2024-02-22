@@ -37,7 +37,7 @@ class SSLAdapter(HTTPAdapter):
         context = create_urllib3_context()
         context.load_cert_chain(certfile=self._certfile,
                                 keyfile=self._keyfile,
-                                password=str(self._password))
+                                password=str(self._password) if self._password is not None else None)
         if self._cacertfile:
             context.load_verify_locations(cafile=self._cacertfile)
         kwargs['ssl_context'] = context
