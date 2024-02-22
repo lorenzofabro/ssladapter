@@ -12,7 +12,7 @@ SSL Adapter is a Python package that provides utilities for handling SSL connect
 Installation
 ------------
 
-Install Your Package Name using pip:
+Install using pip:
 
 .. code-block:: bash
 
